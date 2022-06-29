@@ -1,2 +1,17 @@
-# prometheus-exemple
-Repository to demonstrate use of Prometheus metrics within grafana. Resources will be shared with docker-compose.
+# Prometheus Exemple
+
+This repository is meant to be a exemple for Prometheus and Grafana.
+
+> Observation: To run, you have to install Docker and Docker Compose.
+
+To run, just use the command below:
+
+```
+docker-compose up --build
+```
+
+After that, you can access these services:
+
+- Grafana: http://localhost:3000
+- Prometheus: http://localhost:9090
+- Fake App: http://localhost:5000
